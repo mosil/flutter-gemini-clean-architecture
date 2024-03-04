@@ -15,9 +15,17 @@ This Flutter project demonstrates how to use `Clean Architecture` to integrate t
 
 ### Branch
 
-This project has two branches:
-1. main
-   Initial state, you can replace api key to run it.
+This project has 3 branches:
+1. `main`: The initial state. You can run it by replacing the API key.
+2. `1-empty-folders`: Based on the `main` branch, add the empty directories required for the architecture.
+3. `2-completed`: Complete the classification of the code in the entire directory.
+
+## Note
+
+1. Architecture is a principle!
+2. There is no fixed answer for how to divide directories, names, or even how to adjust the code.
+3. The team only needs to unify the specifications to make it easy to maintain later.
+4. The English version of README was assisted by Google Gemini.
 
 ## Credits
 
@@ -27,7 +35,7 @@ Developer - Ada/阿達 (@mosil)
 
 The MIT License (MIT)
 
-Copyright (c) 2024 Mosil Studio
+Copyright (c) 2024 [Mosil Studio](https://medium.com/@mosil-dev)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 associated documentation files (the "Software"), to deal in the Software without restriction,
