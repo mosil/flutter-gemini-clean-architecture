@@ -1,0 +1,27 @@
+name: gemini_clean_architecture
+description: "以 Clean Architecture 概念，開發一個整合 Google Gemini API 的對話應用程式。Develop a conversational application that integrates the Google Gemini API using the Clean Architecture."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_generative_ai: ^0.2.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
